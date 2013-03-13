@@ -1,0 +1,33 @@
+/*$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);*/
+
+/*
+instead of @ sign, use the $ for customization
+$btnPrimaryBackground: green;
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+*/
+
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+/* if I want to get rid of the shadow
+.navbar-inner {
+	@include box-shadow(non !important);
+	border: 0;
+}*/
+
+.footer {
+
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
