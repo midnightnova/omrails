@@ -5,8 +5,12 @@
 instead of @ sign, use the $ for customization
 $btnPrimaryBackground: green;
 $navbarBackgroundHighlight: white;
-$navbarBackground: white;
+$navbarBackground: #E0ECF8;
 */
+
+
+$navbarLinkBackgroundHover: white;
+
 
 
 @import 'bootstrap';

@@ -1,6 +1,6 @@
 	<div class="footer">
 		<small>
-			<%= link_to "a Social Climax Project"."http://SocialClimax.org" %> 
+			<%= link_to "a Social Climax Project", "http://SocialClimax.org" %> 
 			by Joshua Tobkin
 		</small>
 	</div>
